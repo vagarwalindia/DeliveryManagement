@@ -32,6 +32,7 @@ public abstract class AbstractService<V extends BaseVO, F extends BaseFilter, T 
 
     @Override
     public V addUpdate(V v) {
+        this.validate(v);
         T t = this.convertToEntity(v);
         return this.convertToVO((T) repository.save(t));
     }
@@ -99,4 +100,17 @@ public abstract class AbstractService<V extends BaseVO, F extends BaseFilter, T 
     public abstract T convertToEntity(V v);
 
     public abstract T setAdditionalDataToEntity(T t,V v);
+
+    public void validateAdd(V v){};
+
+    public void validateUpdate(V v){};
+    public void validate(V v){
+        if (v.getId()==null || v.getId().isBlank()){
+            validateAdd(v);
+        }
+        else{
+            validateUpdate(v);
+        }
+    }
+
 }

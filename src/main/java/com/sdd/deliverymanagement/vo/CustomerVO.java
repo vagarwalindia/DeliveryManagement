@@ -12,5 +12,6 @@ public class CustomerVO extends BaseVO implements Serializable {
     private String name;
     private String emailId;
     private String address;
+    private String mobileNo;
 
 }

@@ -7,7 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableEurekaClient
 public class DeliveryManagementApplication {
 
 	public static void main(String[] args) {
