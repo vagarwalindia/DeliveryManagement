@@ -14,7 +14,7 @@ import java.util.Locale;
 @Configuration
 @EntityScan(basePackages = {"com.sdd.deliverymanagement.entity"})
 @EnableJpaRepositories(basePackages = {"com.sdd.deliverymanagement.repository"})
-@ComponentScan({"com.sdd.deliverymanagement.service","com.sdd.deliverymanagement.service.impl","com.sdd.deliverymanagement.util.handler"})
+@ComponentScan({"com.sdd.deliverymanagement.service","com.sdd.deliverymanagement.service.impl","com.sdd.GenericCode.util.handler","com.sdd.GenericCode.service","com.sdd.GenericCode.service.impl"})
 public class DeliveryManagementConfig {
 
     @Bean

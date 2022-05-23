@@ -1,5 +1,6 @@
 package com.sdd.deliverymanagement.restcontroller;
 
+import com.sdd.GenericCode.controller.RESTController;
 import com.sdd.deliverymanagement.entity.Customer;
 import com.sdd.deliverymanagement.spec.CustomerSpec;
 import com.sdd.deliverymanagement.vo.CustomerVO;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(CustomerController.CONTROLLERURL)
-public class CustomerController extends RESTController<CustomerVO, CustomerFilterVO, CustomerSpec, Customer, String>{
+public class CustomerController extends RESTController<CustomerVO, CustomerFilterVO, CustomerSpec, Customer, String> {
 
     public static final String CONTROLLERURL = "v1/customer";
 }

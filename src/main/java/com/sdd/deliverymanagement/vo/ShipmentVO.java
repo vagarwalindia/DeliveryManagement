@@ -1,12 +1,11 @@
 package com.sdd.deliverymanagement.vo;
 
-import com.sdd.deliverymanagement.entity.Order;
+import com.sdd.GenericCode.vo.BaseVO;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.io.Serializable;
 import java.util.List;
-import java.util.Set;
 
 @Getter
 @Setter

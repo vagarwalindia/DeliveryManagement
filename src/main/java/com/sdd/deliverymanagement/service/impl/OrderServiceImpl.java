@@ -4,11 +4,12 @@ import com.sdd.deliverymanagement.entity.Order;
 import com.sdd.deliverymanagement.repository.CustomerRepository;
 import com.sdd.deliverymanagement.service.OrderService;
 import com.sdd.deliverymanagement.spec.OrderSpec;
-import com.sdd.deliverymanagement.vo.IdNameVO;
+import com.sdd.GenericCode.vo.IdNameVO;
 import com.sdd.deliverymanagement.vo.OrderVO;
 import com.sdd.deliverymanagement.vo.filter.OrderFilterVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.sdd.GenericCode.service.impl.AbstractService;
 
 import java.util.Date;
 

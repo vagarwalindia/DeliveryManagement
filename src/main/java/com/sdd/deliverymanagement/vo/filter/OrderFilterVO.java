@@ -1,5 +1,6 @@
 package com.sdd.deliverymanagement.vo.filter;
 
+import com.sdd.GenericCode.vo.filter.BaseFilter;
 import lombok.Getter;
 import lombok.Setter;
 

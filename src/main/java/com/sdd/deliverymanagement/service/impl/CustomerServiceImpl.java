@@ -4,13 +4,14 @@ import com.sdd.deliverymanagement.entity.Customer;
 import com.sdd.deliverymanagement.repository.CustomerRepository;
 import com.sdd.deliverymanagement.service.CustomerService;
 import com.sdd.deliverymanagement.spec.CustomerSpec;
-import com.sdd.deliverymanagement.util.BusinessException;
-import com.sdd.deliverymanagement.util.EncriptAndDecryptString;
-import com.sdd.deliverymanagement.util.MessageConstant;
+import com.sdd.GenericCode.util.BusinessException;
+import com.sdd.GenericCode.util.EncriptAndDecryptString;
+import com.sdd.GenericCode.util.MessageConstant;
 import com.sdd.deliverymanagement.vo.CustomerVO;
 import com.sdd.deliverymanagement.vo.filter.CustomerFilterVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.sdd.GenericCode.service.impl.AbstractService;
 
 @Service
 public class CustomerServiceImpl extends AbstractService<CustomerVO, CustomerFilterVO, Customer, CustomerSpec, String> implements CustomerService {

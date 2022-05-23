@@ -9,6 +9,7 @@ import com.sdd.deliverymanagement.vo.ShipmentVO;
 import com.sdd.deliverymanagement.vo.filter.ShipmentFilterVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.sdd.GenericCode.service.impl.AbstractService;
 
 import java.util.ArrayList;
 import java.util.Date;

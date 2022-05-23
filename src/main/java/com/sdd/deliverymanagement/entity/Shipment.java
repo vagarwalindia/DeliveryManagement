@@ -1,5 +1,6 @@
 package com.sdd.deliverymanagement.entity;
 
+import com.sdd.GenericCode.entity.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

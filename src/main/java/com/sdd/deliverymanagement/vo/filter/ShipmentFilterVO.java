@@ -1,4 +1,6 @@
 package com.sdd.deliverymanagement.vo.filter;
 
-public class ShipmentFilterVO extends BaseFilter{
+import com.sdd.GenericCode.vo.filter.BaseFilter;
+
+public class ShipmentFilterVO extends BaseFilter {
 }

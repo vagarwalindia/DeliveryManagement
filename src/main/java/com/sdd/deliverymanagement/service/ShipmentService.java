@@ -1,5 +1,6 @@
 package com.sdd.deliverymanagement.service;
 
+import com.sdd.GenericCode.service.GenericService;
 import com.sdd.deliverymanagement.entity.Shipment;
 import com.sdd.deliverymanagement.spec.ShipmentSpec;
 import com.sdd.deliverymanagement.vo.ShipmentVO;

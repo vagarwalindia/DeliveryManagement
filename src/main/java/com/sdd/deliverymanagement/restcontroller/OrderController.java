@@ -1,5 +1,6 @@
 package com.sdd.deliverymanagement.restcontroller;
 
+import com.sdd.GenericCode.controller.RESTController;
 import com.sdd.deliverymanagement.entity.Order;
 import com.sdd.deliverymanagement.spec.OrderSpec;
 import com.sdd.deliverymanagement.vo.OrderVO;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(OrderController.CONTROLLERURL)
-public class OrderController extends RESTController<OrderVO, OrderFilterVO, OrderSpec, Order, String>{
+public class OrderController extends RESTController<OrderVO, OrderFilterVO, OrderSpec, Order, String> {
 
     public static final String CONTROLLERURL = "v1/order";
 }

@@ -1,5 +1,7 @@
 package com.sdd.deliverymanagement.vo;
 
+import com.sdd.GenericCode.vo.BaseVO;
+import com.sdd.GenericCode.vo.IdNameVO;
 import lombok.Getter;
 import lombok.Setter;
 
